@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tcp_send_in_fragments"
+version = "0.0.1"
+authors = [
+  { name="Johnny O'Donnell", email="odonnell_johnny@yahoo.com" },
+]
+description = "Send a TCP payload in multiple IP fragments"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/johnnyodonnell/python-tcp-send-in-fragments"
+Issues = "https://github.com/johnnyodonnell/python-tcp-send-in-fragments/issues"
+
